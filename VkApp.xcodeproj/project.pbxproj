@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		660332F728FF29FA00BC1932 /* colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 660332F628FF29FA00BC1932 /* colors.xcassets */; };
+		660332F928FF2A1800BC1932 /* common.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 660332F828FF2A1800BC1932 /* common.xcassets */; };
 		66B9B41C28FDDC710040E352 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B9B41B28FDDC710040E352 /* AppDelegate.swift */; };
 		66B9B41E28FDDC710040E352 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B9B41D28FDDC710040E352 /* SceneDelegate.swift */; };
-		66B9B42528FDDC720040E352 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66B9B42428FDDC720040E352 /* Assets.xcassets */; };
+		66B9B42528FDDC720040E352 /* icon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66B9B42428FDDC720040E352 /* icon.xcassets */; };
 		66B9B42828FDDC720040E352 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66B9B42628FDDC720040E352 /* LaunchScreen.storyboard */; };
 		66B9B43528FDE22C0040E352 /* SignInView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66B9B43428FDE22C0040E352 /* SignInView.storyboard */; };
 		66B9B43828FDE24B0040E352 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B9B43728FDE24B0040E352 /* SignInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		660332F628FF29FA00BC1932 /* colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = colors.xcassets; sourceTree = "<group>"; };
+		660332F828FF2A1800BC1932 /* common.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = common.xcassets; sourceTree = "<group>"; };
 		66B9B41828FDDC710040E352 /* VkApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VkApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66B9B41B28FDDC710040E352 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66B9B41D28FDDC710040E352 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		66B9B42428FDDC720040E352 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66B9B42428FDDC720040E352 /* icon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = icon.xcassets; sourceTree = "<group>"; };
 		66B9B42728FDDC720040E352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66B9B42928FDDC720040E352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66B9B43428FDE22C0040E352 /* SignInView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignInView.storyboard; sourceTree = "<group>"; };
@@ -76,7 +80,9 @@
 			children = (
 				66B9B41B28FDDC710040E352 /* AppDelegate.swift */,
 				66B9B41D28FDDC710040E352 /* SceneDelegate.swift */,
-				66B9B42428FDDC720040E352 /* Assets.xcassets */,
+				66B9B42428FDDC720040E352 /* icon.xcassets */,
+				660332F828FF2A1800BC1932 /* common.xcassets */,
+				660332F628FF29FA00BC1932 /* colors.xcassets */,
 				66B9B42928FDDC720040E352 /* Info.plist */,
 			);
 			path = Utilities;
@@ -159,8 +165,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				66B9B43528FDE22C0040E352 /* SignInView.storyboard in Resources */,
+				660332F728FF29FA00BC1932 /* colors.xcassets in Resources */,
 				66B9B42828FDDC720040E352 /* LaunchScreen.storyboard in Resources */,
-				66B9B42528FDDC720040E352 /* Assets.xcassets in Resources */,
+				66B9B42528FDDC720040E352 /* icon.xcassets in Resources */,
+				660332F928FF2A1800BC1932 /* common.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

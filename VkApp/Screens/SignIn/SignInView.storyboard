@@ -90,7 +90,7 @@
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ck5-Ay-X7X">
-                                <rect key="frame" x="55" y="516" width="280" height="40"/>
+                                <rect key="frame" x="55" y="516.33333333333337" width="280" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="280" id="Ipr-fv-rfi"/>
@@ -106,10 +106,23 @@
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                         <integer key="value" value="20"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="layer.shadowColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="layer.shadowOffset">
+                                        <size key="value" width="0.0" height="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.shadowOpacity">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.shadowRadius">
+                                        <integer key="value" value="0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EQV-yT-txd">
-                                <rect key="frame" x="150" y="775" width="89" height="35"/>
+                                <rect key="frame" x="150.33333333333334" y="775" width="89.666666666666657" height="35"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Sign In"/>
@@ -122,8 +135,8 @@
                         <color key="backgroundColor" name="vk.brand"/>
                         <constraints>
                             <constraint firstItem="b4W-sX-Lfj" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="80" id="10p-9V-fQ8"/>
+                            <constraint firstItem="EQV-yT-txd" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="21w-TH-Snc"/>
                             <constraint firstItem="ck5-Ay-X7X" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="4Fe-Rq-yNF"/>
-                            <constraint firstItem="EQV-yT-txd" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="4eZ-KT-V71"/>
                             <constraint firstItem="ck5-Ay-X7X" firstAttribute="top" secondItem="Lp2-uO-R59" secondAttribute="bottom" constant="80" id="7Vj-22-tCX"/>
                             <constraint firstItem="Mwz-wE-xYk" firstAttribute="top" secondItem="HlY-AD-dnT" secondAttribute="bottom" constant="15" id="GVE-Yx-QrK"/>
                             <constraint firstItem="Mwz-wE-xYk" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="OoE-kR-QuQ"/>
@@ -131,14 +144,14 @@
                             <constraint firstItem="tIS-nl-6UT" firstAttribute="leading" secondItem="Lp2-uO-R59" secondAttribute="trailing" constant="-183" id="Zap-EB-AUI"/>
                             <constraint firstItem="HlY-AD-dnT" firstAttribute="top" secondItem="b4W-sX-Lfj" secondAttribute="bottom" constant="40" id="l9I-qp-gUo"/>
                             <constraint firstItem="HlY-AD-dnT" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="mUF-PR-YOg"/>
-                            <constraint firstItem="EQV-yT-txd" firstAttribute="bottom" secondItem="vDu-zF-Fre" secondAttribute="bottom" id="vwf-2a-Hc4"/>
                             <constraint firstItem="Lp2-uO-R59" firstAttribute="top" secondItem="tIS-nl-6UT" secondAttribute="bottom" constant="21" id="x5h-LS-Nk0"/>
+                            <constraint firstItem="EQV-yT-txd" firstAttribute="bottom" secondItem="vDu-zF-Fre" secondAttribute="bottom" id="xGH-mF-BRd"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-218" y="-49"/>
+            <point key="canvasLocation" x="-218.46153846153845" y="-49.052132701421797"/>
         </scene>
     </scenes>
     <resources>
